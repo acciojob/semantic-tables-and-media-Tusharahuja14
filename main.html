@@ -7,38 +7,48 @@
 </head>
 
 <body>
-	<table border=1>
-		<thead></thead>
-		<th>
-			Roll numbers
-			</th>
-		<th>Names</th>
-		
-		</thead>
-		<tbody>
-		<tr>
-			<td>1</td>
-			<td>Tushar</td>
-		</tr>
-			<tr>
-				<td>2</td>
-				<td>Vicky</td>
-			</tr>
-			
-			</tbody>
-	</table>
-	<h1>List of medias</h1>
-	<ol>
-	<li><img src="https://picsum.photos/id/123/200/300" alt="photo"></li>
-	<li><video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+  <!-- Semantic Table -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Roll Numbers</th>
+        <th>Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Tushar</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Vicky</td>
+      </tr>
+    </tbody>
+  </table>
 
-	</video></li>	
-		<li>
-			<audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+  <!-- Heading for Media List -->
+  <h2>List of medias</h2>
 
-			</audio>
-		</li>
-	</ol>
+  <!-- Ordered List with Media Items -->
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Sample Image" />
+    </li>
+    <li>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+    </li>
+  </ol>
 </body>
+
 
 </html>
